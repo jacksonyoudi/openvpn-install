@@ -52,7 +52,7 @@ newclient () {
 	echo "</key>" >> ~/$1.ovpn
 }
 
-
+# 123
 # Try to get our IP from the system and fallback to the Internet.
 # I do this to make the script compatible with NATed servers (lowendspirit.com)
 # and to avoid getting an IPv6.
